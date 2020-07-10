@@ -1,0 +1,167 @@
+/* pagina principal */
+body{
+    text-align: center;
+    background:black;
+    }
+ header a{
+        font-size: 20px;
+        font-weight: 900;
+        
+    }
+    
+    .gris{
+        background:rgba(90, 85, 85, 0.445);
+        
+       }
+    
+    .top-nav-collapse{
+        background:rgba(20, 20, 20, 0.616);
+    }
+      
+    .logo{
+       width: 40px;
+       height: 40px;
+    }
+ 
+    
+#submenu-index{
+  
+    background:rgba(83, 83, 83, 0.329);
+      text-align: center;
+    
+     
+    
+    
+}
+#submenu-index a{
+   font-size:20px;
+   font-weight: 900;
+   color:black;
+   
+}
+ 
+ #carrusel{
+        margin-top: 5%;
+    }
+    #fondo-index{
+        background:rgba(0, 0, 0, 0.835); 
+        margin-top: -70px;
+        padding: 100px;
+            }
+
+#tarjeta{
+    margin-top: 8%;
+   
+}
+     
+    .titulo{
+        display: inline block;
+        position: relative;
+        color:rgba(236, 225, 225, 0.89);
+        font-weight: 900;
+        font-size: 30px;
+        font-family:'Galada';
+        margin-top: 6%;
+    
+    }
+    .titulo::after, .titulo::before{
+         content:'';
+         position: absolute;
+         width: 120px;
+         height: 3px;
+         background-color:currentColor;
+    
+        
+     }
+    
+     .titulo::before{
+         left: 20px;
+       top: 1em;
+     }
+     .titulo::after{
+        right:20px;
+        top: 1em;
+    }
+    
+    
+    
+    footer{
+       background: rgba(64, 64, 66, 0.705);
+        margin-top: 15%;
+        
+    }
+ /* andres cepeda */
+ #submenu{
+  
+    background:rgba(255, 254, 254, 0.603);
+      text-align: center;
+   
+    
+}
+#submenu a{
+   font-size:20px;
+   font-weight: 900;
+   
+}
+
+  
+  
+.img1{
+      width: 1000px;
+       padding: 50px;
+     
+  }
+  #img2{
+      margin-top: 5.5%;
+  }
+
+
+  .title-a{
+      font-size: 50px;
+    margin-top: 50px;
+     
+  }
+  .titulo1{
+    display: inline block;
+    position: relative;
+    color:rgba(236, 225, 225, 0.89);
+    font-weight: 900;
+    font-size: 30px;
+    font-family:'Galada';
+    margin-top: 6%;
+
+}
+.titulo1::after, .titulo1::before{
+     content:'';
+     position: absolute;
+     width: 120px;
+     height: 3px;
+     background-color:currentColor;
+
+    
+ }
+
+ .titulo1::before{
+     left: 180px;
+   top: 1em;
+ }
+ .titulo1::after{
+    right:180px;
+    top: 1em;
+}
+
+  #tarjeta1{
+      margin-top: 3%;
+  }
+
+  /* el afri */
+
+  #img2 p{
+      font-size: 15px;
+      color: black;
+      font-weight:500;
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+
+     
