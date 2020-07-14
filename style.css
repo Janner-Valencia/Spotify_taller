@@ -1,7 +1,8 @@
 /* pagina principal */
 body{
     text-align: center;
-    background:black;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px ,rgb(255, 35, 20) -600%, black 70%);
+  
     }
  header a{
         font-size: 20px;
@@ -81,11 +82,8 @@ body{
      .titulo::after{
         right:20px;
         top: 1em;
-    }
-    
-    
-    
-    footer{
+    } 
+     footer{
        background: rgba(64, 64, 66, 0.705);
         margin-top: 15%;
         
@@ -103,8 +101,6 @@ body{
    font-weight: 900;
    
 }
-
-  
   
 .img1{
       width: 1000px;
@@ -163,5 +159,11 @@ body{
       font-family: 'Times New Roman', Times, serif;
 
   }
+/* acerca de  */
+#perfil img{
+    margin-top:-10%;
+}
+ #parrafo{
+text-align:justify;
 
-     
+}
